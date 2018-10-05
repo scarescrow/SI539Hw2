@@ -56,7 +56,7 @@ body {
 	color: #fff;
 }
 
-.navbar-link-brand > a:hover {
+.navbar-link-brand:hover {
 	color: #ccc;
 }
 
@@ -67,7 +67,7 @@ body {
 	width: 8em;
 }
 
-.navbar-items a {
+.navbar-items > a {
 	color: #fff;
 	text-decoration: none;
 }
@@ -149,6 +149,10 @@ body {
 	padding-bottom: 10px;
 	display: block;
 	width: 100%;
+}
+
+.player_div:hover {
+	background: green;
 }
 
 .last_player {
