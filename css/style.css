@@ -155,7 +155,7 @@ body {
 	background: green;
 }
 
-.last_player {
+.player_div:last-child {
 	grid-column: 1 / span 3;
 }
 
